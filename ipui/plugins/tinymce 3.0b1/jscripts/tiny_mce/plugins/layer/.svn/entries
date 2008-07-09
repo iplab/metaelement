@@ -1,0 +1,52 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/layer
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+editor_plugin.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+2d4dc43386af42a61a18a22de1681ca7
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+3c1c8bd2444eea6bb33df5e96eb3cafb
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+

@@ -1,0 +1,49 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/implements/cats/dam
+svn://192.168.72.7/
+
+
+
+2008-02-13T18:31:01.596679Z
+2640
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+css
+dir
+
+layouts
+dir
+
+lib
+dir
+
+resource.xml
+file
+
+
+
+
+2008-02-13T18:31:01.000000Z
+2545744fda1106e83d3ad43ede412b7c
+2008-02-13T18:31:01.596679Z
+2640
+nicholas.hoskins
+

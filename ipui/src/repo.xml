@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	
+	<common>
+		<base>
+			<cache file="cache.js" />
+			<cookie file="cookie.js" />
+			<date file="date.js" />
+			<demandlet file="demandlet.js" />
+			<form file="form.js" />
+			<history file="history.js" />
+			<persist file="persist.js" />
+			<query file="query.js" />
+			<xml file="xml.js" />
+		</base>	
+		<cap>
+			<cats file="cats.js" />
+			<manager file="manager.js" />
+		</cap>
+		<legacy></legacy>
+	</common>
+	
+	<localization></localization>
+
+	<commerce>
+		<cart file="cart.js" />
+		<gift file="gift.js" />
+		<promotion file="promotion.js" />
+	</commerce>
+	
+	<ui>
+		<grid file="grid.js" />
+		<lightbox file="lightbox.js" />
+		<page file="page.js" />
+		<repeater file="repeater.js" />
+		<tabs file="tabs.js" />
+		<tinymce file="tinymce.js" />
+		<tree file="tree.js" />
+	</ui>
+	
+	<user>
+		<address file="address.js" />
+		<human file="human.js" />
+	</user>
+	
+	<utils>
+		<general file="general.js" />
+		<hash file="hash.js" />
+		<json file="json.js" />
+		<serializer file="serializer.js" />
+		<xml2json file="xml2json.js" />
+	</utils>
+	
+</xml>

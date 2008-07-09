@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cat>
+	
+	<overview>
+		<label>Blogger</label>
+		<name>Blogger Tool</name>
+		<description>This is a blogging tool</description>
+		<author>Fred Thompson</author>
+	</overview>
+	
+	<application>
+	
+		<admin authentication="yes" default="Posts.List">
+			<feature name="Posts" lib="posts.js" layout="posts.xhtml">
+				<Create layout="create_post.xhtml" />
+				<Remove layout="remove_post.xhtml" />
+				<Update layout="update_post.xhtml" />
+				<List layout="list_posts.xhtml" />
+			</feature>
+		</admin>
+	
+		<service>
+			<layout>blogTemplate.ftl</layout>
+		</service>
+
+	</application>
+	
+</cat>

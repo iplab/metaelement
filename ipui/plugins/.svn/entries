@@ -1,0 +1,130 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins
+svn://192.168.72.7/
+
+
+
+2008-01-29T17:44:56.687473Z
+2536
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+aim.js
+file
+
+
+
+
+2007-11-15T16:38:46.000000Z
+e0bbb1bfc0dd78665145d85bbdf702a4
+2007-11-15T16:38:46.511796Z
+1831
+nicholas.hoskins
+
+calendar
+dir
+
+calendar.js
+file
+
+
+
+
+2007-11-15T16:35:38.000000Z
+e6a19d3f91e62d8dab3708653e6feb4a
+2007-11-15T16:35:38.636247Z
+1828
+nicholas.hoskins
+
+control.tabs.js
+file
+
+
+
+
+2007-11-15T16:35:38.000000Z
+5998fa26112644727f45189f72562a4e
+2007-11-15T16:35:38.636247Z
+1828
+nicholas.hoskins
+
+jupload
+dir
+
+modalBox.js
+file
+
+
+
+
+2007-11-15T16:35:38.000000Z
+9b19e0a16df4bd5d43797cf7ef0abbe6
+2007-11-15T16:35:38.636247Z
+1828
+nicholas.hoskins
+
+protoculous-packer.js
+file
+
+
+
+
+2007-11-15T16:35:38.000000Z
+36b3dcb8a2a78a0e6860c3c119860afb
+2007-11-15T16:35:38.636247Z
+1828
+nicholas.hoskins
+
+prototype
+dir
+
+scriptaculous-js-1.6.4
+dir
+
+scriptaculous-js-1.7.1_beta3
+dir
+
+siteCatalyst.js
+file
+
+
+
+
+2007-11-15T16:47:02.000000Z
+44312f2540babc8b514bd53acd97a45c
+2007-11-15T16:47:02.289033Z
+1836
+nicholas.hoskins
+
+swfobject.js
+file
+
+
+
+
+2007-11-15T16:38:01.000000Z
+585927ed9dbfe9003c2c15bc33048821
+2007-11-15T16:38:01.587653Z
+1830
+nicholas.hoskins
+
+tinymce 3.0b1
+dir
+

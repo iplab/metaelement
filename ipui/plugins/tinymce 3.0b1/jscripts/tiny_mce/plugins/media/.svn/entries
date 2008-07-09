@@ -1,0 +1,76 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/media
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+css
+dir
+
+editor_plugin.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+6e4c8826014fc34747cb214b0b1e0ebe
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+ee3613c5e5b4eb76c8130ce9a40ab8e5
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+img
+dir
+
+js
+dir
+
+langs
+dir
+
+media.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+c99a3232d5ba9cb06de93f9f77f1b694
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+

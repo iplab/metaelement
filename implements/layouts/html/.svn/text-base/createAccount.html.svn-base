@@ -1,0 +1,38 @@
+<div class="popupwindow" style="width: 400px;">	  
+	<div class="close"><a href="#" class="lbAction" rel="deactivate">close</a></div>
+		<div class="createaccount-container clearfix">
+			<form id="cform">
+			<h1>Create An Account</h1>
+		    <p>If you take a moment to create an account you'll get the ability to rate and review products, save items to your personal wish list and store addresses for future purchases.</p>
+		    <div class="accountform clearfix">
+			    <label for="FirstName">First Name:</label>
+				<input id="FirstName" name="FirstName" type="text" required="required" alert="Please enter a First Name." maxlength="25" /><br />
+				<label for="LastName">Last Name:</label>
+				<input id="LastName" name="LastName" type="text" required="required" alert="Please enter a Last Name." maxlength="25" /><br />
+				<label for="new_email">Email Address:</label>
+				<input id="new_email" name="email" type="text" required="required" alert="Please enter an Email address." /><br />
+				<label for="new_email_confirm">Confirm Email Address:</label>
+				<input id="new_email_confirm" name="email_confirm" type="text" required="required" alert="Please enter a confirmation Email address." /><br />
+				<label for="new_password">Create Password:</label>
+				<input id="new_password" name="password" type="password" required="required" alert="Please enter a Password." /><br />
+				<label for="new_password_confirm">Confirm Password:</label>
+				<input id="new_password_confirm" name="password_confirm" type="password" required="required" alert="Please enter a confirmation Password." /><br />		
+			</div>
+			
+			<p style="margin-bottom: 15px;">You can customize your complete profile settings later, by clicking on <strong>My Account</strong> from the site header.</p>
+			<div id="createAccount-optins" class="optins">
+			</div>
+			<ul style="margin: 0 30px 20px 0;">
+         		<li><a href="#" id="create-btn" class="btn-createaccount">Create Account</a></li>
+		     	<li><a href="#" class="lbAction btn-cancel" rel="deactivate">Cancel</a></li>
+			</ul>
+			</form>
+			<div class="clear"></div>
+			<p class="small-text" style="margin-bottom: 10px;">By creating an account you accept the <span class="show-us">BBC America Shop <a href="/help/terms_us.html">terms and conditions</a>.</span>
+			<span class="show-ca">BBC Canada Shop <a href="/help/terms_ca.html">terms and 
+			conditions</a>.</span></p>
+			<script>
+				getOptins($('createAccount-optins'));
+			</script>
+		</div>
+</div>

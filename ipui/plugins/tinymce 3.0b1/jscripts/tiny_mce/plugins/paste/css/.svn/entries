@@ -1,0 +1,52 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/paste/css
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+blank.css
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+5840c25c61645bca26e8e82a60f1d723
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+pasteword.css
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+e1dfc4d39541876eae65975a6febf6cc
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cat>
+	
+	<overview>
+		<label>Assets</label>
+		<name>Digital Asset Manager</name>
+		<description>This is a digital asset management tool</description>
+		<author>Ron Paul</author>
+	</overview>
+	
+	<application>
+		<admin authentication="yes" default="Assets.List">
+			<feature name="Assets" lib="assets.js" layout="assets.xhtml">
+				<function name="Upload" layout="upload_asset.xhtml" />
+				<function name="Remove" layout="remove_asset.xhtml" />
+				<function name="Update" layout="update_asset.xhtml" />
+				<function name="List" layout="list_assets.xhtml" />
+			</feature>
+		</admin>
+	</application>
+	
+</cat>

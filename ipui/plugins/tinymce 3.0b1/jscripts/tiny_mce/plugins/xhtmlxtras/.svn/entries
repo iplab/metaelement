@@ -1,0 +1,133 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/xhtmlxtras
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+abbr.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+fada383aa78a49de381cf3ac59120367
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+acronym.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+c38499951c591c87fbdee0bc1ecc6747
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+attributes.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+b96873b66aa32dabf481b23b1a514802
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+cite.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+ac7796c77249c1e0e1172852438d1321
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+css
+dir
+
+del.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+068230b66513f7ef3f55113a680d59d2
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+b0a31f5f940b686c4140bf5cb97c4700
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+6586899c0b486cdbe737c59e3ecf61b0
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+ins.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+515a8a2bbe731edfc32fda339a2ad841
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+js
+dir
+
+langs
+dir
+

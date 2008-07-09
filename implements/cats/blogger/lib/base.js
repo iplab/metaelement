@@ -1,0 +1,7 @@
+function blogger(){
+};
+blogger.prototype = {
+	
+	
+};
+

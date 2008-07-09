@@ -1,0 +1,77 @@
+  <div class="chkout-status">
+				<img src="/media/checkout/statusbar-ship.gif" width="507" height="26" alt="Ship" />
+			 </div>
+				
+			 <div class="chkout-header">
+				<h2>Shipping Details</h2>
+			</div>
+			 <div class="chkout-twocol clearfix">
+				<div class="left">
+						
+                        <h3>1. Select a Shipping Address</h3>
+                        <div id="addressbookLayout">
+							<form id="addressBookForm" name="addressBookForm">
+							<div id="repeater-container">
+								<div id="addressList" class="repeater">
+									<table id="previewbodytable" cellpadding="3" cellspacing="0">	   
+										<tr>
+											<td width="1" valign="top">
+												<input type="radio" name="addressGroup" value="<data:address_id></data:address_id>" />
+											</td>
+											<td valign="top">
+												<label for="<data:address_id></data:address_id> - selection" class="nobold" style="vertical-align: top; cursor: default;">
+												<span id="<data:address_id></data:address_id>_first_name"><data:first_name></data:first_name></span> <span id="<data:address_id></data:address_id>_last_name"><data:last_name></data:last_name></span><br />
+												<span id="<data:address_id></data:address_id>_address"><data:address></data:address></span> <span id="<data:address_id></data:address_id>_address2"><data:address2></data:address2></span><br />
+												<span id="<data:address_id></data:address_id>_city"><data:city></data:city>,</span> <span id="<data:address_id></data:address_id>_state"><data:state></data:state></span> <span id="<data:address_id></data:address_id>_postal_code"><data:postal_code></data:postal_code></span><br />
+												<span id="<data:address_id></data:address_id>_phone"><data:phone></data:phone></span>
+												</label>
+												<p style="margin-top: 7px;" class="small-text"><a href="#" class="edit-entry" onclick="'/templates/html/addressformLayout_' + getCountry() + '.html'" address_id="<data:address_id></data:address_id>" user_id="<data:user_id></data:user_id>" >Edit</a> |
+												<a href="#" class="delete-entry" address_id="<data:address_id></data:address_id>" user_id="<data:user_id></data:user_id>">Delete</a></p>
+											</td>
+										</tr>			
+									</table>
+								</div>
+							</div>
+							</form>
+						</div>
+                        <!--
+						<h4 style="margin: 15px 0;">Shipping to Multiple Addresses?</h4>
+                        <input type="checkbox" id="multiple-address-specified" name="" class="inline" />
+                        <label for="multiple-address-specified" class="nobold">Yes, I would like to specify an address for each item in the next step</label>-->
+                        <a id="new-address" href="#" class="btn-addaddress-large" style="margin: 10px 0;">Add Address</a>
+						<div id="addressformLayout" ></div>
+					
+				</div>
+				
+				<div class="right">
+					<h3>2. Choose Shipping Method</h3>
+					<p>The cost of each option is based on the total amount of your order.</p>
+					<div style="margin-bottom: 30px;">
+					<form id="shippingMethod">
+						<div id="shipping-repeater">
+							<table width="100%" cellpadding="4" cellspacing="0" border="0">
+								<tr>
+								 	<td width="1"><input type="radio" name="shipping" value="<data:code></data:code>" id="shipping_<data:code></data:code>" /></td>
+									<td><label for="supersaver" class="nobold small-text"><data:name></data:name></label></td>
+									<td align="right" width="30" class="small-text"><data:rate></data:rate></td>
+								</tr>
+							</table>
+						</div>
+					</form>
+					</div>
+					 
+					<h3>3. Gift Wrapping (optional)</h3>
+					<p>Most items can be specially wrapped with our all occassion gift-wrap. Check the box below to see the available gift wrapping options for your order on the next page.</p>
+					 
+				   <input type="checkbox" id="show-wrap-options" style="vertical-align: middle;" />
+				   <label for="show-wrap-options" class="nobold small-text">Please show me your gift wrapping options in the next step</label>
+				   <div style="margin: 15px 0 20px 0;">
+				   		<img src="/media/checkout/gift-wrap-package.jpg" width="265" height="176" alt="Gift Boxes" />
+					</div>
+				    <a href="#" onclick="saveShipping_returning();return false;" class="btn-continue-large" style="float: right;">Continue</a>
+				</div>
+			
+			</div>
+			
+			<p><a href="#" onclick="showPreview();return false;" class="arrow-back">Go Back</a></p>
+

@@ -1,0 +1,140 @@
+			<div class="chkout-status">
+				 <img src="/media/checkout/statusbar.gif" width="507" height="26" alt="Preview Your Order" />
+			</div>
+				 
+			<div class="chkout-header">
+				<h2>Preview Your Order</h2>
+				<p>Please review your order below. You can change the quantity or remove an item from your cart and then click 'update' to see the new total.</p>
+			</div>	
+				
+			<table class="chkout-table"> 
+			<thead>
+				<tr>		   
+					<th class="itemno">Item#</th>
+					<th class="desc">Description</th>
+					<th class="options"></th>
+					<th class="qty">Quantity</th>
+					<th class="price">Price</th>
+				</tr>
+			</thead>
+			</table>
+			
+			
+			<div id="repeater-container">
+				<div id="repeater" class="repeater">
+				<table class="chkout-table"> 
+			  		<tr>
+					  	<td class="itemno"><data:product_number></data:product_number></td>
+						<td class="desc">
+							<h4><data:product_name></data:product_name></h4>
+							<span class="small-text"><data:product_format></data:product_format></span><br />
+							<!--<span class="small-text">In Stock</span>-->
+						</td>
+						<td class="options small-text">
+							<a href="#" onclick="cart.remove('<data:product_id></data:product_id>',true);cart.show();return false;">Remove</a><br />
+						</td>
+						<td class="qty">
+							<input id="quantity_<data:product_id></data:product_id>" value="<data:quantity></data:quantity>" style="width: 20px;" onkeyup="cart.edit(this);" chars="0123456789" minLen="1" maxLen="2" alert="Invalid Amount" />
+						</td>
+						<td class="price">$<data:product_price></data:product_price></td>
+					</tr>
+				</table>
+				</div>
+			</div>
+			
+			
+			<table class="chkout-table"> 
+				<tr>
+					<td align="right"><span class="bluebold">Sub-total</span></td>
+					<td class="price"><span id="cartTotal"></span></td>
+				</tr>
+				 <tr>
+					 <td align="right"><span class="bluebold">Giftwrap</span></td>
+					 <td class="price"><span id="giftwrapTotal"></span></td>
+				</tr>
+			 </table>
+			
+			<table class="chkout-table"> 
+				<tr>
+					<td colspan="3" style="padding: 0;">
+							<div class="chkout-promocode clearfix">
+				          		<div class="chkout-promocode-left">
+				          			<p class="small-text">If you have promotional codes, enter it here. Click update to see the new total.</p>
+								</div>
+								<div class="chkout-promocode-right">
+									<label for="promocode">Enter Promotional Code:</label>
+									<input id="promocode" 
+										type="text" 
+										onkeyup="cart.edit(this);" 
+										minLen="4"
+										maxLen="10"
+										alert="There's a slight problem with your entry. The promotion code is not recognised. Please try again."
+									/><br />
+							 	   	<label for="giftcert">Redeem Gift Certificate: </label>
+									<input id="giftcert" 
+										type="text" 
+										onkeyup="cart.edit(this);" 
+										chars="0123456789" 
+										minlen="10" 
+										maxlen="10" 
+										alert="The gift certificate number is not recognized. Please try again." 
+									/> 
+								</div>
+				         	</div> 
+					</td>
+				</tr>
+			</table>
+
+			<div id="promotion" style="display:none">
+				<table class="chkout-table"> 
+					<tr>
+						<td colspan="2" align="right"><span class="bluebold" id="promotionDescription">Promotion Discount</span></td>
+						<td class="price"><span id="promotionTotal"></span></td>
+					</tr>
+				</table>
+			</div>
+						
+			<div id="giftCertificate" style="display:none">
+				<table class="chkout-table"> 
+					<tr>
+						<td colspan="2" align="right"><span class="bluebold">Gift Certificate Amount</span></td>
+						<td class="price"><span id="giftcertificateTotal"></span></td>
+					</tr>
+				</table>
+			</div>
+
+			<table class="chkout-table">
+				<tr>
+					<td class="small-text">Standard shipping is calculated based on your order sub-total. 1-Day and 2-Day shipping options will also be available from the shipping page.</td>
+					<td align="right" width="140"><span class="bluebold">Estimated Shipping Cost</span></td>
+					<td class="price"><span id="shippingTotal"></span></td>
+				</tr>
+			</table>
+
+			<div class="repeater" id="dropshipInfo" where="product_shipping='dropship'">
+				<table class="chkout-table">
+					<tr>
+						<td align="right"><span class="bluebold">Additional Shipping costs for <data:product_name></data:product_name></span></td>
+						<td class="price">$<data:dropShipTotal></data:dropShipTotal></td>
+					</tr>
+				</table>
+			</div>
+						
+			<table class="chkout-table"> 
+				<tr>
+					<td colspan="2" align="right"><span class="bluebold">Estimated Total</span></td>
+					<td class="price bold" id="totalPrice"></td>
+				</tr>
+			</table>
+			
+			<div class="chkout-button">
+				<div style="display:none;" id="notifier"></div>
+				<a href="#" id="continue" onclick="cart.checkout('showLogin()');return false;" class="btn-continue-large"></a>
+			</div>
+			<p class="show-us" style="padding: 20px;">Sales tax will be added to shipping addresses in: CA, FL, GA, LA, MD, NY and PA.</p>
+			
+			<!-- Zustek -->
+				<img id="img1" width="1" height="1" />
+			<!-- /Zustek -->
+			
+			

@@ -1,0 +1,20 @@
+<h1 class="title">Account Profile</h1>
+<div class="content">
+	<p>If you would like to update your email address or password, please do so here.</p>
+	
+	<!--p><strong>Pen Name:</strong> Burton Cromer <a href="#" class="small-text" style="padding: 0 15px;">What's this?</a></p -->
+	<form id="uform">
+	<div class="generic-form" >
+		<label for="new_email">Email Address:</label>
+		<input id="new_email" type="text" required="required" alert="Please enter an Email address." />
+		<label for="new_password">Create Password:</label>
+		<input id="new_password" type="password" required="required" alert="Please enter a Password." />
+		<label for="new_password_confirm">Confirm Password:</label>
+		<input id="new_password_confirm" type="password" required="required" alert="Please enter a confirmation Password." />
+	</div>
+	
+	<a href="#" id="update-btn" class="btn-update-large" onclick="updateAccount(); return false;">Update</a><br />
+	<p class="small-text">We take your privacy seriously. Please see our <a href="#">Privacy Policy</a> for details related to our policy.</p>	
+	</form>
+</div>
+

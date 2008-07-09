@@ -1,0 +1,73 @@
+<xml>
+	<object type="video">
+		<field>
+			<![CDATA[
+			<dl class="clearfix">
+			<field label="Format:" data="format"></field>
+			<field label="Run time:" data="runtime"></field>
+			<field label="Originally Aired On:" data="originally_aired"></field>
+			<field label="Other Formats:" data="other_formats"></field>
+			<field label="Number of Discs:" data="number_of_items"></field>
+			<field label="Number of Tapes:" data="number_of_tapes"></field>
+			<field label="Closed Captions:" data="close_captions"></field>
+			<field label="Special Features:" data="special_features"></field>
+			</dl>
+			]]>
+		</field>
+	</object>
+	<object type="book">
+		<field>
+			<![CDATA[
+			<dl class="clearfix">
+			<field label="Number of Pages:" data="number_of_pages"></field>
+			<field label="Run time:" data="runtime"></field>
+			<field label="Number of Items:" data="number_of_items"></field>
+			<field label="Other Formats:" data="other_formats"></field>
+			<field label="Special Features:" data="special_features"></field>
+			<field label="Drop Ship Details:" data="drop_ship_details"></field>
+			</dl>
+			]]>
+		</field>
+	</object>
+	<object type="audio">
+		<field>
+			<![CDATA[
+			<dl class="clearfix">
+			<field label="Run time:" data="runtime"></field>
+			<field label="Number of Discs:" data="number_of_items"></field>
+			<field label="Other Formats:" data="other_formats"></field>
+			<field label="Special Features:" data="special_features"></field>
+			<field label="Drop Ship Details:" data="drop_ship_details"></field>
+			</dl>
+			]]>
+		</field>
+	</object>
+	<object type="magazine">
+		<field>
+			<![CDATA[
+			<dl class="clearfix">
+			<field label="Frequency:" data="delivery_frequency"></field>
+			<field label="Dimensions:" data="dimensions"></field>
+			<field label="Average Page Count:" data="average_page_per_issue"></field>
+			<field label="Number of Issues:" data="number_of_issues"></field>
+			<field label="Special Features:" data="special_features"></field>
+			</dl>
+			]]>
+		</field>
+	</object>
+	<object type="merchandise">
+		<field>
+			<![CDATA[
+			<dl class="clearfix">
+			<field label="Size:" data="size"></field>
+			<field label="Dimensions:" data="dimensions"></field>
+			<field label="Weight:" data="weight"></field>
+			<field label="Color:" data="color"></field>
+			<field label="Number of items:" data="number_of_items"></field>
+			<field label="Special Features:" data="special_features"></field>
+			<field label="Drop Ship Details:" data="drop_ship_details"></field>
+			</dl>
+			]]>
+		</field>
+	</object>
+</xml>

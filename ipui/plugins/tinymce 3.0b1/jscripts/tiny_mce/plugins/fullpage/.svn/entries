@@ -1,0 +1,73 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/fullpage
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+css
+dir
+
+editor_plugin.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+4dea5abf66c259698b0121431357889b
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+868fc9d9807994aaf00a20a1ab5e1303
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+fullpage.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+9293405a4e494018af9df388a56d82e8
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+js
+dir
+
+langs
+dir
+

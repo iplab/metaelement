@@ -1,0 +1,54 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/themes/advanced/img
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+colorpicker.jpg
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+02ae48639aa5729e6a40fb64455c32a2
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+has-props
+
+icons.gif
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+79fd242f30fe7c067cdd1a2819286d96
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+has-props
+

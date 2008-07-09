@@ -1,0 +1,161 @@
+  		<div class="chkout-status">
+			<img src="/media/checkout/statusbar-pay.gif" width="507" height="26" alt="Pay" />
+		</div>
+	
+		 <div class="chkout-header">
+			<h2>Payment Details</h2>
+		</div>
+		 <div class="chkout-twocol clearfix">
+			<div class="left">
+				
+                    <h3>1. Select a Billing Address</h3>
+                    <div id="addressbookLayout">
+						<form id="addressBookForm" name="addressBookForm">
+						<div id="repeater-container">
+							<div id="addressList" class="repeater">
+								<table id="previewbodytable" cellpadding="3" cellspacing="0">	   
+									<tr>
+										<td valign="top">
+											<input type="radio" name="addressGroup" value="<data:address_id></data:address_id>" />
+										</td>
+										<td valign="top">
+											<label for="<data:address_id></data:address_id> - selection" class="nobold" style="vertical-align: top; cursor: default;">
+											<span id="<data:address_id></data:address_id>_first_name"><data:first_name></data:first_name></span> <span id="<data:address_id></data:address_id>_last_name"><data:last_name></data:last_name></span><br />
+											<span id="<data:address_id></data:address_id>_address"><data:address></data:address></span> <span id="<data:address_id></data:address_id>_address2"><data:address2></data:address2></span><br />
+											<span id="<data:address_id></data:address_id>_city"><data:city></data:city>,</span> <span id="<data:address_id></data:address_id>_state"><data:state></data:state></span> <span id="<data:address_id></data:address_id>_postal_code"><data:postal_code></data:postal_code></span><br />
+											<span id="<data:address_id></data:address_id>_phone"><data:phone></data:phone></span>
+											</label>
+											<p style="margin-top: 7px;" class="small-text"><a href="#" class="edit-entry" onclick="'/templates/html/addressformLayout_' + getCountry() + '.html'" address_id="<data:address_id></data:address_id>" user_id="<data:user_id></data:user_id>" >Edit</a> |
+											<a href="#" class="delete-entry" address_id="<data:address_id></data:address_id>" user_id="<data:user_id></data:user_id>">Delete</a></p>
+										</td>
+									</tr>			
+								</table>
+							</div>
+						</div>
+						</form>
+					</div>
+                    <a id="new-address" href="#" class="btn-addaddress-large" style="margin: 10px 0;">Add Address</a>
+					<div id="addressformLayout"></div>
+			
+			</div>
+					
+			<div class="right">
+				
+				<div class="chkout-formbox">
+						
+					<h3>2. Payment Method</h3>
+					<div id="payment_cc" style="display:none;">
+						<form id="ccDetails">
+							<input type="radio" id="paycc" value="cc" class="inline" />
+							<label for="paycredit" class="nobold">Pay with Credit Card</label><br /><br />
+							   
+								<label for="CardHolderName">Name on Card:</label>		   	
+							   	<input id="CardHolderName" 
+									type="text" 
+									maxlength="40" 
+									required="required"
+									alert="Please enter the name on the card."
+								/>
+							   
+							<label for="CardType">Card Type:</label>
+								<select id="CardType">
+								<option selected="selected" disabled="disabled" value="">Select</option>
+								   <option value="V">Visa</option>
+								   <option value="M">MasterCard</option>
+								   <option value="A">Amercian Express</option>
+								   <option value="D">Discover</option>
+								</select>
+							
+							<label for="CardNumber">Card Number:</label>			   	
+						   	<input id="CardNumber" 
+								type="text" 
+								maxlength="16"
+							/>
+						   	
+			 				<label for="expdate">Expiration Date:</label>
+			 				 <select id="expmonth" class="inline">
+							   <option value="01">01</option>
+							   <option value="02">02</option>
+							   <option value="03">03</option>
+							   <option value="04">04</option>
+							   <option value="05">05</option>
+							   <option value="06">06</option>
+							   <option value="07">07</option>
+							   <option value="08">08</option>
+							   <option value="09">09</option>
+							   <option value="10">10</option>
+							   <option value="11">11</option>
+							   <option value="12">12</option>
+							 </select>
+			 				 <select id="expyear" class="inline">			   	
+							   <option value="07">07</option>
+							   <option value="08">08</option>
+							   <option value="09">09</option>
+							   <option value="10">10</option>
+							   <option value="11">11</option>
+							   <option value="12">12</option>				   	
+							   <option value="13">13</option>						   	
+						   	</select><br /><br />
+						   	 <label for="CardSecurityCode">Security Code:</label>			   	
+							   	 <input id="CardSecurityCode" 
+								 	type="text" 
+									style="width: 40px; margin-right: 10px;" 
+									class="inline" 
+									maxlength="4"
+									required="required"
+									alert="Please enter security code."
+								/>
+							<a href="#" class="small-text" onclick="window.open('/securitycode.html','securitycode', 'width=460,height=600,scrollbars=yes');">What's this?</a><br /><br />
+						</form>
+					</div>
+					
+					<div id="payment_gc" style="display:none;">
+						<form id="gcDetails">
+							<input type="radio" id="paygc" value="gc" class="inline" />
+							<label for="paycredit" class="nobold">Pay with Gift Certificate</label><br /><br />
+						</form>
+					</div>
+				</div>
+							 
+				<div class="chkout-promo-box">	 			
+					<h3>3. Enter a Promotional Code or Redeem Gift Certificate</h3>
+					<table width="100%" cellspacing="0" cellpadding="2" border="0" style="margin-bottom: 15px;">
+					<tr>
+						<td align="right"><label for="promocode" class="small-text nobold">Enter Promotional Code*:</label></td>
+						<td align="right">
+								<input id="promocode" 
+									type="text" 
+									onkeyup="editBilling(false);" 
+									minLen="4"
+									maxLen="10"
+									alert="There's a slight problem with your entry. The promotion code is not recognised. Please try again."
+								/>
+						</td>
+				 	 </tr>
+					 <tr>
+					 	<td align="right"><label for="giftcert" class="small-text nobold">Redeem Gift Certificate:</label></td>
+						<td align="right">
+								<input id="giftcert" 
+									type="text" 
+									onkeyup="editBilling(false);" 
+									chars="0123456789" 
+									minlen="10" 
+									maxlen="10" 
+									alert="The gift certificate number is not recognized. Please try again." 
+								/> 
+						</td>
+					</tr>
+					</table>	
+					<p class="small-text" style="margin-bottom: 0;">*If you are ordering from the catalog, the promotional code can be found in the blue box on the back cover.</p>
+				 </div>
+				  
+				  <div style="margin: 15px 0;" class="clearfix">
+					<p style="float: left; width: 60%" class="orange-text small-text">You will be able to review and make changes to your order on the next page.</p>
+					<div style="display:none;" id="notifier"></div>
+					<a href="#" onclick="saveBilling_returning();return false;" id="review" class="btn-review-large" style="float: right;">Review Order</a>
+				</div>
+			    
+			</div>
+	
+			</div>
+			<p><a href="#" class="arrow-back" onclick="showShipping();return false;">Go Back</a></p>

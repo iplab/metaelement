@@ -1,0 +1,46 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/themes
+svn://192.168.72.7/
+
+
+
+2008-02-14T21:44:41.269403Z
+2651
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+clouds
+dir
+
+fire
+dir
+
+glass
+dir
+
+greyscale
+dir
+
+standard
+dir
+
+tango
+dir
+

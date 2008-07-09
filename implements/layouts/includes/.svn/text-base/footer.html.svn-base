@@ -1,0 +1,14 @@
+	<div id="footerstick"></div>
+	<div id="footer">
+	<h4>Order by Phone: 1-800-898-4921</h4>
+		<ul>
+			<li><a href="#">About the BBC</a>|</li>
+			<li><a href="#">Shipping Rates &amp; Policies</a>|</li>
+			<li><a href="#">Return an Item</a>|</li>
+			<li><a href="#">Privacy Notice</a>|</li>
+			<li><a href="#">Customer Service</a>|</li>
+			<li><a href="#">Help/FAQ</a>|</li>
+			<li><a href="#">Affiliate Network</a></li>
+		</ul>
+		<p>By using this web site, you accept the <a href="#">terms and conditions</a>. &copy;2006 BBC Worldwide Americas Inc.</p>
+	</div>

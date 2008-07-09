@@ -1,0 +1,73 @@
+<div class="popupwindow" style="width: 380px;">
+	<div class="close"><a href="#" class="lbAction" rel="deactivate">close</a></div>
+	
+		<div id="myshoppingcart">
+			<h1><span>My Shopping Cart</span></h1>
+			<span class="items" id="cartitems">0 Item(s)</span>
+	
+			<table class="table-mycart" style="clear: both;">
+			<thead>
+			<tr>
+				<th width="65"></th>
+				<th>Description</th>
+				<th width="50" style="text-align: center;">Quantity</th>
+				<th class="price cartwindow-padding">Price</th>
+			</tr>
+			</thead>
+			</table>
+			
+			<div class="cartwindow">
+				   
+				<div id="repeater-container">
+					<div id="repeater" class="repeater">
+						<table class="table-mycart">
+						<tr>
+							<td width="65"><img src="<data:product_image></data:product_image>" width="65" alt="<data:product_name></data:product_name>" /></td>
+							<td>
+								<h4><data:product_name></data:product_name></h4> 
+								<span class="small-text"><data:product_format></data:product_format></span><br /><br />
+								<span class="small-text">Item#: <data:product_number></data:product_number></span>
+							</td>
+							<td width="50" align="center"><input 
+													id="quantity_<data:product_id></data:product_id>" 
+													value="<data:quantity></data:quantity>" 
+													style="width: 20px;" 
+													onkeyup="cart.edit(this);" 
+													chars="0123456789" 
+													minLen="1" 
+													maxLen="2" 
+													alert="Invalid Amount" 
+												/></td>
+							<td class="price">$<data:product_price></data:product_price></td>
+						</tr>
+						<tr>
+							  <td colspan="4" style="padding: 0;">
+							 	<ul>
+							 		<li><a href="#" onclick="cart.remove('<data:product_id></data:product_id>',true);cart.updateCartIcon($('ccMain'));cart.show();return false;">Remove</a></li>
+								</ul>
+							</td>
+						</tr>
+						</table>
+					</div>
+				</div>
+			
+			</div>
+		
+			
+			<table class="table-mycart">
+			<tr>
+				<td align="right" class="bluebold">Shopping Cart Sub-Total</td>
+				<td class="price cartwindow-padding"><span id="cartTotal">$0</span></td>
+			</tr>
+			</table>
+			
+			<table width="100%" cellspacing="0" cellpadding="0" border="0" style="margin: 20px 0;">
+			<tr>
+				<td><p style="margin: 0;" class="small-text">You'll be able to see shipping costs, and enter Gift Cards or promotions, during Checkout.</p></td>
+			  	<td><a href="#" class="btn-checkout-large" style="float: right" id="checkout" onclick="this.blur();cart.checkout('cart.loadCheckout()');return false;">Checkout</a></td>
+			</tr>
+			</table>
+	
+		</div>
+</div>
+

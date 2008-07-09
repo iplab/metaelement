@@ -1,0 +1,51 @@
+			<div class="chkout-status">
+				<img src="/media/shopping_cart/statusbar.gif" width="507" height="26" alt="Preview Your Order" />
+			 </div>
+				 
+			 <div class="chkout-header">
+				<h2>Have an Account?</h2>
+				<p>Sign in, create an account, or continue as a guest...</p>
+			</div>
+			
+			<div class="chkout-twocol clearfix">
+				<div class="left">
+					<h3>Returning Customers</h3>
+					<p>Please sign in to access your account.</p>
+					<div class="chkout-formbox">
+						<form id="loginForm">
+							<label for="email">Email Address:</label>
+							<input id="email" type="text" required="required" alert="Please enter a valid email." />
+							<label for="password">Password:</label>
+							<input id="password" type="password" required="required" alert="Please enter a password." />
+						</form>
+						<a href="#" onclick="user.forgotPassword();return false;" class="small-text">Forgot your password?</a>
+						<a href="#" onclick="user.login($('loginForm'),{onComplete:'showLogin()'});return false;" class="btn-signin-large" style="margin: 20px 0;">Sign In</a>
+					</div>
+					<hr />
+					<h3>Guests</h3>
+					<p>You can complete your purchase without creating an account. However you will miss out on the many benefits of being a registered user.</p>
+					<a href="#" onclick="showShipping();return false;" class="btn-guestcheckout-large" style="margin: 20px 0;">Guest Checkout</a>
+				</div>
+				<div class="right">
+					<h3>New Customers</h3>
+					<p>Please take a moment to create an account. Your information will be stored for future purchases and you will have the ability to view order history, ship to multiple addresses as well as rate and review products (coming soon!). All fields are required.</p>
+					<div class="chkout-formbox">
+						<form id="registrationForm">
+							<label for="FirstName">First Name:</label>
+							<input id="FirstName" name="FirstName" type="text" required="required" alert="Please enter a First Name." maxlength="25" />
+							<label for="LastName">Last Name:</label>
+							<input id="LastName" name="LastName" type="text" required="required" alert="Please enter a Last Name." maxlength="25" />
+							<label for="new_email">Email Address:</label>
+							<input id="new_email" type="text" required="required" alert="Please enter an Email address." />
+							<label for="new_email_confirm">Confirm Email Address:</label>
+							<input id="new_email_confirm" type="text" required="required" alert="Please enter a confirmation Email address." />
+							<label for="new_password">Create Password:</label>
+							<input id="new_password" type="password" required="required" alert="Please enter a Password." />
+							<label for="new_password_confirm">Confirm Password:</label>
+							<input id="new_password_confirm" type="password" required="required" alert="Please enter a confirmation Password." />
+							<div id="signin-optins" class="optins"></div>
+						</form>
+					</div>
+					<a href="#" onclick="user.create($('registrationForm'),{onComplete:'showShipping()'});return false;" class="btn-createaccount-large" style="margin: 20px 0;">Create Account</a>
+				</div>
+			</div>

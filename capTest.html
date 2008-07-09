@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<title></title>
+		<script src="ipui/plugins/prototype/prototype.js"></script>
+		<script src="ipui/src/start.js"></script>
+		<script>
+			
+			IPUI.requires('common.cap.cats');
+			IPUI.requires('common.cap.manager');
+			var cats;
+			var myLayout={};
+			
+			Event.observe(window,'load', 
+				function() {
+					IPUI.cats.loadAll({onComplete:buildAll})
+				}
+			);
+		
+			function buildAll(catObj){
+				cats=catObj;
+				IPUI.manager.loadInterface('implements/layouts/xml/cms.xml');
+			}
+			
+			function addTab(){
+				var newTab = IPUI.tabs.add('tabs_myId',{label:'',onclick:'',panel:''}); //{label:'a new tab',onclick:'alert(\'new tab\')',panel:'tabs_myId'};
+			};	
+		</script>
+	</head>
+	<body>
+		
+		
+			
+
+	</body>
+</html>

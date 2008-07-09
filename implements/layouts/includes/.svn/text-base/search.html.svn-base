@@ -1,0 +1,10 @@
+		<div id="search">
+			<label for="searchfor">Search For:</label>
+			<input id="searchfor" type="text" class="search-field" /> in 
+			<select>
+				<option value="">All Products</option>
+				<option value="">Video</option>
+				<option value="">Books</option>
+			</select>
+			<input src="/media/global/btn-go.gif" value="Go" type="image" class="search-btn" />
+		</div>

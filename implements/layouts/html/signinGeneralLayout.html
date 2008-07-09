@@ -1,0 +1,41 @@
+
+
+<div class="popupwindow" style="width: 300px;">		  
+	<div class="close"><a href="#" class="lbAction" rel="deactivate">close</a></div>
+	  
+	<div class="signin-container clearfix">
+	
+	<h1>Sign in to Your Account</h1>
+	 
+	<form id="loginForm">
+	<label for="email-address">Email Address:</label>
+	<input id="email" 
+	type="text" 
+	required="required" 
+	alert="Please enter a valid email." /><br />	
+	
+	<label for="password">Password:</label>
+	<input id="password" 
+	type="password" 
+	required="required" 
+	alert="Please enter a password." /><br />
+	
+	<input type="checkbox" id="remember-me" name="" class="rememberme" />
+	<label for="remember-me" class="nobold small-text rememberme">Remember me on this computer.</label>
+	
+	<div class="clear"></div>			
+	<ul>
+		<li><a href="#" id="login-btn" class="btn-login">Log In</a></li>
+		<li><a href="#" class="lbAction btn-cancel" rel="deactivate">Cancel</a></li>
+	</ul>
+	</form>
+	<div class="clear"></div>
+	
+	<p class="small-text" style="text-align: right"><a href="/ajax/layouts/forgotPassword.html" id="forgotpass" class="small-text">I forgot my password</a></p>
+	
+	<p style="margin-bottom: 10px;"><strong>Blimey. I don't have an account.</strong><br />
+	It takes about 30 seconds to register.</p>
+	<a href="/ajax/layouts/createAccount.html" id="createaccount" class="btn-createaccount">Create one now</a>
+	
+	</div>
+</div>

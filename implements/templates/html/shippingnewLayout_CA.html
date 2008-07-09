@@ -1,0 +1,144 @@
+  <div class="chkout-status">
+				<img src="/media/checkout/statusbar-ship.gif" width="507" height="26" alt="Ship" />
+			 </div>
+				 
+			 <div class="chkout-header">
+				<h2>Shipping Details</h2>
+			</div>
+			
+				 <div class="chkout-twocol clearfix">
+					<div class="left">
+						<div class="chkout-formbox">	
+						<h3>1. Enter Shipping Address</h3>	
+							<form id="shippingAddress">				
+								<label for="FirstName">First Name:</label>
+								<input type="text" 
+									id="FirstName" 
+									required="required" 
+									alert="Please enter First Name" 
+									maxlength="20"
+								/>
+								<label for="LastName">Last Name:</label>
+								<input type="text" 
+									id="LastName" 
+									required="required" 
+									alert="Please enter Last Name" 
+									maxlength="20"
+								/>
+								<label for="Address1">Address 1:</label>
+								<input type="text" 
+									id="Address1" 
+									required="required" 
+									alert="Please enter Address 1" 
+									maxlength="25"
+								/>
+								<label for="Address2">Address 2:</label>
+								<input id="Address2" 
+										type="text" 
+										maxlength="25"								
+								/>
+								<label for="City">City:</label>
+								<input type="text" 
+									id="City" 
+									required="required" 
+									alert="Please enter City" 
+									maxlength="14"
+								/>
+								<label for="State">Province:</label>
+						            <select required="required" id="State" />					
+										<option value="AB">Alberta</option>
+										<option value="BC">British Columbia</option>
+										<option value="MB">Manitoba</option>
+										<option value="NB">New Brunswick</option>
+										<option value="NL">Newfoundland and Labrador</option>
+										<option value="NT">Northwest Territories</option>
+										<option value="NS">Nova Scotia</option>
+										<option value="NU">Nunavut</option>
+										<option value="ON">Ontario</option>
+										<option value="PE">Prince Edward Island</option>
+										<option value="QC">Quebec</option>
+										<option value="SK">Saskatchewan</option>
+										<option value="YT">Yukon</option>
+									</select>
+					            <label for="Zip">Zip Code / Postal Code:</label><br />
+								<input type="text" 
+									id="Zip" 
+									required="required" 
+									alert="Please enter Zip Code / Postal Code" 
+									minLen="6" 
+									maxlength="6" 
+									chars="0123456789abcdefghijklmopqrstuvxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+									tabindex="7"
+								/>
+								<label for="Phone">Phone:</label><br />
+								<input type="text" 
+									id="Phone1" 
+									class="inline" 
+									style="width: 40px; margin-right: 3px;" 
+									required="required" 
+									alert="Please enter valid Phone Number" 
+									minLen="3" 
+									maxlength="3" 
+									chars="0123456789" 
+								/>
+								<input type="text" 
+									id="Phone2" 
+									class="inline" 
+									style="width: 40px; margin-right: 3px;" 
+									required="required" 
+									alert="Please enter valid Phone Number" 
+									minLen="3" 
+									maxlength="3" 
+									chars="0123456789"
+								/>					
+								<input type="text" 
+									id="Phone3" 
+									class="inline" 
+									style="width: 65px; margin-right: 10px;" 
+									required="required" 
+									alert="Please enter valid Phone Number" 
+									minLen="4" 
+									maxlength="4" 
+									chars="0123456789" 
+								/>
+								<a href="#" class="small-text">Why do we need this?</a><br /><br />
+							</form>
+							
+							<input type="checkbox" id="same-as-billing" class="inline" />
+							<label for="same-as-billing" class="nobold">Same as my billing address</label><br />
+						</div>
+					</div>
+				
+				<div class="right">
+					<h3>2. Choose Shipping Method</h3>
+					<p>The cost of each option is based on the total amount of your order.</p>
+					<div style="margin-bottom: 30px;">
+					<form id="shippingMethod">
+						<div id="shipping-repeater">
+							<table width="100%" cellpadding="4" cellspacing="0" border="0">
+								<tr>
+								 	<td width="1"><input type="radio" name="shipping" value="<data:code></data:code>" id="shipping_<data:code></data:code>" /></td>
+									<td><label for="supersaver" class="nobold small-text"><data:name></data:name></label></td>
+									<td align="right" width="30" class="small-text"><data:rate></data:rate></td>
+								</tr>
+							</table>
+						</div>
+					</form>
+					</div>
+					 
+					<h3>3. Add Gift Wrapping Options (optional)</h3>
+					<p>Most items can be specially wrapped with our all occassion gift-wrap.  Just click on the
+					 box below to see the options for your order.</p>
+					 
+				   <input type="checkbox" id="show-wrap-options" style="vertical-align: middle;" />
+				   <label for="show-wrap-options" class="nobold small-text">Please show me your gift wrapping options in the next step</label>
+				  <div style="margin: 15px 0 20px 0;">
+				   		<img src="/media/checkout/gift-wrap-package.jpg" width="265" height="176" alt="Gift Boxes" />
+					</div>
+				    <a href="#" onclick="saveShipping();return false;" class="btn-continue-large" style="float: right;">Continue</a>
+				</div>
+			
+			</div>
+			
+			<p><a href="#" onclick="showLogin();return false;" class="arrow-back">Go Back</a></p>
+

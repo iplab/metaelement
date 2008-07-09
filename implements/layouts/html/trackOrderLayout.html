@@ -1,0 +1,95 @@
+<h1 class="title">Order Summary</h1>
+<div class="trackorder-container">
+	<a href="#" class="btn-printinvoice-large" style="float: right;">Print Invoice</a>
+						
+	
+	  <table cellpadding="2" cellspacing="0" border="0" style="margin-bottom: 20px;">
+		<tr>
+			<td width="100"><strong>Order Number:</strong></td>
+			<td id="order_number"></td>
+		</tr>
+		<tr>
+			<td><strong>Order Placed:</strong></td>
+			<td id="order_date"></td>
+		</tr>
+		<tr>
+			<td><strong>Order Total:</strong></td>
+			<td class="total_cost"></td>
+		</tr>
+		</table>
+	  
+	  <hr />
+	  <a href="#" class="btn-trackshipment-large" style="float: right;">Track Shipment</a>
+   		<table cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+	   <tr>
+	   		<td width="180" valign="top">
+				 <strong>Shipping Address:</strong><br /><br />
+				 <div id="shipping_address"></div>
+			</td>
+			<td width="20"></td>
+			<td valign="top">
+				 <strong>Shipping Method:</strong><br /><br />
+				 <div id="shipping_method"></div>
+			</td>
+		</tr>
+		</table>
+		
+		
+	
+	<h2>Order Details</h2>
+		
+	<table id="order-header" class="chkout-table"> 
+	<thead>
+	<tr>		   
+		<th class="itemno">Item#</th>
+		<th class="desc" >Description</th>
+		<th class="options">Availability</th>
+		<th class="qty">Quantity</th>
+		<th class="price">Price</th>
+	</tr>
+	</thead>
+	</table>
+	
+	<table class="chkout-table" style="margin-bottom: 20px;"> 
+	<tr>
+		<td align="right"<span class="bluebold">Sub-total</span></td>
+		<td id="sub_total" class="price"></td>
+	</tr>
+	<tr>
+	 <td align="right"><span class="bluebold">Promotional Discount</span></td>
+	 <td class="price"><span id="promotional_discount" class="orange-text"></span></td>
+	</tr>
+	 <tr>
+	  <td align="right"><span class="bluebold">Giftwrap</span></td>
+	  <td id="giftwrap" class="price"></td>
+	 </tr>
+	 <tr>
+		<td align="right"><span class="bluebold">Shipping &amp; Handling</span></td>
+		<td id="shipping_handling" class="price"></td>
+	</tr>
+	<tr>
+		<td align="right"><span class="bluebold">Taxes</span></td>
+		<td id="taxes" class="price"></td>
+	</tr>
+    <tr>
+		<td align="right"><span class="bluebold">TOTAL</span></td>
+		<td class="price bold total_cost"></td>
+	</tr>
+	</table>
+	
+	<table width="100%" cellpadding="0" cellspacing="0" border="0"> 
+	<tr>
+		<td width="180" valign="top">
+			<strong>Billing Address:</strong><br /><br />
+			<div id="billing_address"></div>
+	     </td>
+		 <td width="20"></td>
+		 <td valign="top">
+			<strong>Payment Method:</strong><br /><br />
+			<div id="paymentDetails"></div>
+	    </td>
+	</tr>
+	 </table>
+	    
+
+</div>

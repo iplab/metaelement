@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="/bbcshop-america/media/global/global.css" type="text/css" />
+<style type="text/css">
+.dnd-module-left,
+.dnd-module-right { min-height: 400px; height: auto; _height: 400px; }
+.dnd-module-center { min-height: 400px; height: auto; _height: 400px; }
+</style>
+
+<div>
+
+			<div id="section0" allowtype="3" onmouseout="sectionClick=false;" onmouseover="sectionClick=true;setSection(this);">
+				<div id="section0_content" class="dnd-module-center" slotCount="0">
+				</div>
+			</div>
+			
+</div>
+<style type="text/css">
+ul, li { margin: 0; padding: 0; }
+</style>

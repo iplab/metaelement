@@ -1,0 +1,11 @@
+<xml>
+	<object type="closeup">
+		<row>
+			<![CDATA[
+			<field label="Title:" data="name"></field>
+			<field label="Image Url:" data="image"></field>
+			<field label="Description:" data="description"></field>
+			]]>
+		<row>
+	</object>
+</xml>

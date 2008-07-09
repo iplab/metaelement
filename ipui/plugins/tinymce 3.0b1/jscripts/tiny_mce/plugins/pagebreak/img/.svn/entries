@@ -1,0 +1,54 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/pagebreak/img
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+pagebreak.gif
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+48872075f721bf57a517e3275d61c0ba
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+has-props
+
+trans.gif
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+12bf9e19374920de3146a64775f46a5e
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+has-props
+

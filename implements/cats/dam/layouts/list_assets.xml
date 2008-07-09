@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+	<NestedLayoutPanel>
+		
+		<center>
+			<ContentPanel fitToFrame="true">
+				<content>
+
+					<div id="users" class="grid" width="600" style="display:none;" rows="10">
+						<div class="columns">
+							<div dataIndex="id" label="ID" width="40" sortable="true"></div>
+							<div dataIndex="created" label="When" sortable="true"></div>
+							<div dataIndex="title" label="Title" sortable="true"></div>
+							<div dataIndex="author" label="Author"></div>
+							<div dataIndex="actions" label="" width="75""></div>
+						</div>
+					</div>
+
+				</content>
+			</ContentPanel>
+		</center>
+		
+	</NestedLayoutPanel>
+			
+</layout>

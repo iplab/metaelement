@@ -1,0 +1,47 @@
+
+  <div class="chkout-status">
+				<img src="/media/checkout/statusbar-ship.gif" width="507" height="26" alt="Ship" />
+			 </div>
+				 
+			<div class="chkout-header">
+				 <h2>Gift Wrapping</h2>
+				<p style="margin: 0;">Choose which items to gift wrap</p>
+			</div>
+				
+			  <table class="table-giftwrap"> 
+			  <thead>
+			  <tr>		   
+			  	<th class="itemno">Item#</th>
+				<th class="desc">Description</th>
+				<th>Gift Wrapping</th>
+			</tr>
+			</thead>
+			</table>
+			
+			<form id="giftwrap">
+				<div id="gift-repeater" where="product_giftwrap=1">
+					<table class="table-giftwrap">
+						<tr>
+							<td class="itemno"><data:product_number></data:product_number></td>
+							<td class="desc">
+								<h4><data:product_name></data:product_name></h4>
+								<data:product_format></data:product_format>
+							</td>
+							<td>
+								<input type="checkbox" id="<data:product_id></data:product_id>_check" value="<data:product_id></data:product_id>" />
+								<label for="<data:product_id></data:product_id>_check" class="small-text">Add giftwrap and a personal note for 
+									this item for $4.00.</label><br /><br />
+									
+									<label for="<data:product_id></data:product_id>_note">Personal Note:</label>
+									<textarea id="<data:product_id></data:product_id>_note" maxlength="66"></textarea>		
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			
+			<div style="margin: 15px 0;" class="clearfix">
+				<a href="#" class="arrow-back" onclick="showShipping();return false;" style="float: left;">Go Back</a>
+				<a href="#" onclick="saveGiftwrapping();return false;" class="btn-continue-large" style="float: right;">Continue</a>
+			</div>
+

@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="/bbcshop-america/media/global/global.css" type="text/css" />
+<style type="text/css">
+.dnd-module-left,
+.dnd-module-right { min-height: 400px; height: auto; _height: 400px; }
+.dnd-module-center { min-height: 400px; height: auto; _height: 400px; }
+</style>
+
+<div style="background: #a4a4a4 url(/bbcshop-america/media/global/bg.gif) repeat-y 50% 0;">
+<div id="container">
+	<img src="/bbcshop-america/media/global/dnd-header-graphic.gif">
+	<div id="wrapper" class="clearfix">
+		<div id="leftcolumn">
+
+			<div id="section0" allowtype="1" onmouseout="sectionClick=false;" onmouseover="sectionClick=true;setSection(this);">
+				<div id="section0_content" class="dnd-module-left" slotCount="0">
+				</div>
+			</div>
+			
+		</div>
+		<div id="centercolumn">
+			
+			<div id="section1" allowtype="2" onmouseout="sectionClick=false;" onmouseover="sectionClick=true;setSection(this);">
+				<div id="section1_content" class="dnd-module-center" slotCount="0">
+				</div>
+			</div>
+		
+		</div>
+
+		<div id="rightcolumn">
+
+			<div id="section2" allowtype="1" onmouseout="sectionClick=false;" onmouseover="sectionClick=true;setSection(this);">
+				<div id="section2_content" class="dnd-module-right" slotCount="0">
+				</div>
+			</div>
+			
+		</div>
+
+	</div><!-- closes wrapper div -->
+	<img src="/bbcshop-america/media/global/dnd-footer-graphic.gif">
+</div><!-- closes container div -->
+</div>
+
+<style type="text/css">
+ul, li { margin: 0; padding: 0; }
+</style>

@@ -1,0 +1,99 @@
+
+			<h1 class="title">Gift Certificates</h1>
+			<div class="content">
+				<h2>Check Gift Certificate Balance</h2>
+				
+				<div class="checkbalance clearfix">
+					<div class="left"><form id="giftbalanceForm" name="giftbalanceForm">
+						<label for="giftcertnumber">Enter your gift certificate number:</label><br />
+						<input id="Code" type="text" 
+						style="width: 250px; margin: 3px 0 0 0;"
+						required="required" 
+						chars="0123456789" 
+						minLen="5" 
+						alert="Please enter a gift certificate number" />						
+						<input type="button" value="Submit" onclick="giftValidate($('giftbalanceForm')); return false;"/>
+						<div id="failed" style="display:none;"><p class="error-text">Certificate number was not found.</p></div></form>
+					</div>
+					<div id="Amount" class="right">  
+						<data:Amount></data:Amount>
+					</div>
+				</div>
+				
+				<h2>Purchase Gift Certificate</h2>
+				 <!-- Displays Info for US or CAN accordingly -->
+				 <span class="show-us">
+				<p>BBC America Shop Gift Certificates are the perfect solution to easy gift giving. You can purchase and redeem gift certificates through BBCAmericaShop.com. Send as many you like&mdash;they can be applied towards any purchase from www.BBCAmericaShop.com or the BBC America Shop catalog.</p>
+				</span>
+				 <span class="show-ca">
+				 <p>BBC Canada Shop Gift Certificates are the perfect solution to easy gift giving. You can purchase and redeem gift certificates through BBCCanadaShop.com. Send as many you like&mdash;they can be applied towards any purchase from www.BBCCanadaShop.com or the BBC Canada Shop catalog.</p>
+				 </span>
+				<p>Email a certificate to a friend or mail a copy - your choice. Certificates are available in $10 increments, in amounts of $20 or more. Your email gift certificate will arrive within 1 hour of your order. Great when you need to send a present in a hurry!</p>
+				<p>There are no shipping charges for gift certificates sent by regular mail. They will arrive within 3-7 business days.</p>
+				<form id="gcForm" name="addgiftcertTocart">
+				<div class="generic-form">
+					<label for="gift-cert-amount">Gift Certificate Amount:</label>
+					<select name="" id="productId">						
+						<option value="70002">$20</option>
+						<option value="70003">$30</option>
+						<option value="70004">$40</option>
+						<option value="70005">$50</option>
+						<option value="70006">$60</option>
+						<option value="70007">$70</option>
+						<option value="70008">$80</option>
+						<option value="70009">$90</option>
+						<option value="70010">$100</option>
+						<option value="70011">$110</option>
+						<option value="70012">$120</option>
+						<option value="70013">$130</option>
+						<option value="70014">$140</option>
+						<option value="70015">$150</option>
+						<option value="70016">$160</option>
+						<option value="70017">$170</option>
+						<option value="70018">$180</option>
+						<option value="70019">$190</option>
+						<option value="70020">$200</option>
+						<option value="70021">$210</option>
+						<option value="70022">$220</option>
+						<option value="70023">$230</option>
+						<option value="70024">$240</option>
+						<option value="70025">$250</option>
+						<option value="70026">$300</option>
+					</select>
+			          <label for="fromName">From:</label><br />
+			          <em>The name specified in your billing address.</em> <br />
+					  <br />
+					  <label for="toName">To:</label>
+					  <input name="" id="toName" type="text"
+					  	required="required" 
+						minLen="2" 
+						alert="Please enter a name in the to field" 
+						/>
+					  <label for="message">Message:</label><br />
+					  <textarea name="" id="message" rows="5"
+					    wrap="soft"  
+					  	required="required" 
+						minLen="2"
+						maxLen="250"
+						alert="Please enter a message" 
+					  	style="width: 360px; height: 130px;"></textarea> 
+				</div>
+				
+				  <p>Would you like to send an emailed or paper Gift Certificate?</p> 
+	              <label for=emailCert"  class="nobold">
+				  <input type="radio" name="productFormat" value="Email Recipient"/>
+				  Please e-mail this certificate to the following address:
+				  <input id="sendEmail" value="" name="productFormatEmail" type="text" style="width: 190px; margin-left: 5px;"
+				  	minLen="5"					 
+				   /></label><br />
+				   <br />
+				  <label for="send-to-address" name="productFormat" class="nobold">
+				  <input type="radio" name="productFormat" value="Paper"/>
+				  Please send a paper gift certificate. You will be asked for the shipping address during checkout.</label>
+				  
+				  <a href="#" class="btn-addtocart-large" style="float: right; margin: 20px 0 0 0;" onclick="addToCart($('gcForm'));return false;">Add to Cart</a>
+			  </div>
+         	</form>
+		</div>
+
+		

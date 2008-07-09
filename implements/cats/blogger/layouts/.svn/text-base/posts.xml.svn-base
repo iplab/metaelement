@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+	<NestedLayoutPanel>
+		
+		<center>
+			<ContentPanel fitToFrame="true">
+				<content>
+
+					<a href="#" onclick="blogger.post.list();">View Posts</a><br />
+					<a href="#" onclick="blogger.post.create();">Create Post</a><br />
+
+				</content>
+			</ContentPanel>
+		</center>
+		
+	</NestedLayoutPanel>
+			
+</layout>

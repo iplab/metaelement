@@ -1,0 +1,76 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/advimage
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+css
+dir
+
+editor_plugin.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+d03f27acbc5031f1e8f2cdf0a7364954
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+87403104b04ddbc5a3451ab4e3c54c20
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+image.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+91af9ace83138d2492996efb3642b2a8
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+img
+dir
+
+js
+dir
+
+langs
+dir
+

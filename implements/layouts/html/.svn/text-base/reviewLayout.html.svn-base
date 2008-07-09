@@ -1,0 +1,37 @@
+<div class="popupwindow" style="width: 400px;">		  
+ <div class="close"><a href="#">close</a></div>
+	  <div class="review-container">
+			<h1>Write Your Own Review</h1>
+			   <p>Congratulations, you are about to become an online reviewer. You have decided to tell us what you think about:</p>			 
+		     </p>
+				 <h2>Simon Scama's Power of Art</h2>
+				 <label for="pen-name"><strong>Step 1: Choose your pen name.</strong></label><br />
+				 <span class="orange-text small-text"><strong>Sorry, but this pen name is already taken. Please try another name.</strong></span><br />
+				 <p>Your pen name will appear on all of your reviews.  For privacy reasons, you should not use your real name.</p>
+		     <input name="" id="pen-name" type="text" />
+				 <p>Welcome back, <strong>BurtonC</strong>.  You have decided to tell us, what you think about:</p>			 
+		     </p>
+				 <!-- number of steps changes depending on whether or not user recognized.  1-4 for newuser 1-3 for signed in. Steps should be re-ordered accodingly. -->
+				 <p ><strong>Step 2: Rate this Product</strong> (on a scale of 1-5, 5 being the highest).<br />
+				 <span class="orange-text small-text"><strong>Please click on a star to give us your overall rating 
+				 for this product.</strong></span><br />
+				<img src="/media/global/smallstarrating.gif" alt="rating grid" /></p>
+				 <label for="review-title"><strong>Step 3: Title of Your Review</strong></label><br /> 
+				 <span class="orange-text small-text"><strong>Please enter a title for your review.</strong></span><br />
+				 <p>Give us a phrase that captures your overall feeling. (For example: "An Unparalleled Masterpiece!")</p>
+				  <input name="" id="review-title" type="text" />
+				 <label for="review-body" class="clearfix"><strong>Step 4: Write your review.</strong></label>
+				 <span class="orange-text small-text"><strong>Oops! You forgot to write your review. Please tell us what you think.</strong></span><br />
+				 <textarea name="" id="review-body"></textarea>
+				 <span class="small-text">1000 characters left</span>
+				 <div class="clearfix">
+					<a href="#" class="btn-cancel buttons" style="margin-right: 15px;">Cancel</a>
+				  <a href="#" class="btn-previewreview buttons">Preview Your Review</a>				 
+			  </div>
+				<p><strong>Posting Guidelines:</strong><br />
+				<span class="small-text">All submitted reviews are subject to our terms set forth in our 
+				<span class="show-us"><a href="/help/terms.html_us">Conditions Of Use</a>.</span> 
+				<span class="show-ca"><a href="/help/terms.html_ca">Conditions Of Use</a>.</span> 
+				Submissions that do not follow our Review Guidelines will be removed from the site.</span></p>
+	 </div>
+	</div>

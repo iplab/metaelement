@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<page>
+	
+	<regionPanel tabs="yes" id="myId">
+	
+		<contentPanel id="a1" label="Tab 1" class="panel">
+			This is my content for tab 1
+			<form>
+				<select id="skina" onchange="IPUI.setTheme($(this).value);">
+					<option value="standard">Default</option>
+					<option value="clouds">Clouds</option>
+					<option value="fire">Fire</option>
+					<option value="glass">Glass</option>
+					<option value="greyscale">Greyscale</option>
+					<option value="tango">Tango</option>
+				</select>
+			</form>
+		</contentPanel>
+		
+		<contentPanel id="a2" label="Grid Example" class="panel">
+			
+			<gridPanel id="gridExample" class="grid" width="600" style="display:none;" rows="10">
+				<columns>
+					<column index="name" label="The Name" width="400" sortable="true" />
+					<column index="create_date" label="Created" sortable="true" />
+					<column index="modify_date" label="Last Modified" sortable="true" />
+				</columns>
+				<row>
+					<data index="name">Peter Jefferson</data>
+					<data index="create_date">1/1/2007</data>
+					<data dataIndex="modify_date">12/12/2007</data>
+				</row>
+				<row>
+					<data index="name">Nicholas Hoskins</data>
+					<data index="create_date">1/1/2007</data>
+					<data index="modify_date">12/12/2007</data>
+				</row>
+			</gridPanel>
+				
+		</contentPanel>
+
+		<contentPanel id="a3" label="Tabs Example" class="panel">
+			
+			<tabPanel id="anyId" class="tabs">
+				<tab label="Tab a1" onclick="alert('clicked on 1')" />
+				<tab label="Tab a2" onclick="alert('clicked on 2')" />
+			</tabPanel>
+				
+		</contentPanel>
+				
+	</regionPanel>
+
+
+
+
+
+	
+</page>

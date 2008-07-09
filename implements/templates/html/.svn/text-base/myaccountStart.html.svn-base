@@ -1,0 +1,37 @@
+
+
+
+<h1 class="title">My Account</h1>
+<div class="content">
+	<div id="accountHdr"></div>
+	<p>From here you can update personal information, view details related to purchases and manage your wishlist.  Here&#39;s a rundown:</p>
+	<h3>Account Profile</h3>
+	<ul>
+	  	<li><a href="#" onclick='displayUpdateEmailPass();'>Update Your E-mail Address</a></li>
+		<li><a href="#" onclick='displayUpdateEmailPass();'>Change your Password</a></li>
+	</ul>
+	<h3>Order Information</h3>
+	<ul>
+	  	<li><a href="#">Track Packages</a></li>
+	  	<li><a href="#" onclick="ordersLookUp(); return false;">Review Past Orders</a></li>
+	</ul>
+	<h3>Address Book</h3>
+	<ul>
+	  	<li id="addNewAddress"></li>
+	    <li><a href="#" onclick="loadAddressBook();return false;">Edit an existing Address</a></li>
+	</ul>	 
+	<!--
+	<h3>Wish List</h3>
+	<ul>
+	   	<li><a href="#">View saved items</a></li>
+	    <li><a href="#">Send list of items to a Friend</a></li>
+	</ul>
+	-->
+	<h3>Gift Certificates</h3>
+	<ul>
+		<li><a href="#" onclick="giftCertPreview(); return false;">Purchase Gift Certificate</a></li>
+	  	<li><a href="#" onclick="giftCertPreview(); return false;">View Gift Certificate Balance</a></li>
+	</ul>
+</div>
+
+		

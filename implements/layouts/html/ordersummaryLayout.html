@@ -1,0 +1,81 @@
+			<div class="ordersummary-box">
+				<h4>Order Summary</h4>
+					
+					<table>
+					<thead>
+					<tr>
+						<th style="width: 120px;">Items</th>
+						<th style="width: 20px; text-align: center;">Qty.</th>
+						<th style="width: 40px; text-align: right;">Price</th>
+					</tr>
+					</thead>
+					</table>
+	
+					<div id="repeater-container">
+						<div id="order-repeater" class="repeater">
+							<table>
+							<tr>
+								<td style="width: 120px;"><data:product_name></data:product_name></td>
+								<td style="width: 20px; text-align: center;"><data:quantity></data:quantity></td>
+								<td style="width: 40px; text-align: right;"><strong><data:product_price></data:product_price></strong></td>
+							</tr>
+							</table>
+						</div>
+					</div>
+									
+					<table>
+						<tr>
+							<td style="text-align: right;"><span class="blue-text"><strong>Sub-total</strong></span></td>
+							<td style="width: 40px; text-align: right;"><strong><span id="cartTotal"></span></strong></td>
+						</tr>
+						<tr>
+							<td style="text-align: right;"><span class="blue-text"><strong>Giftwrap</strong></span></td>
+							<td style="width: 40px; text-align: right;"><strong><span id="giftwrapTotal"></span></strong></td>
+						</tr>
+					</table>
+
+					<div id="promotion" style="display:none">
+						<table> 
+							<tr>
+								<td style="text-align: right;"><span class="bluebold" id="promotionDescription">Promotion Discount</span></td>
+								<td style="width: 40px; text-align: right;"><strong><span id="promotionTotal"></span></strong></td>
+							</tr>
+						</table>
+					</div>
+								
+					<div id="giftCertificate" style="display:none">
+						<table>
+							<tr>
+								<td style="text-align: right;"><span class="blue-text"><strong>Gift Certificate Amount</strong></span></td>
+								<td style="width: 40px; text-align: right;"><strong><span id="giftcertificateTotal"></span></strong></td>
+							</tr>
+						</table>
+					</div>
+					
+					<table>
+					<tr>
+						<td style="text-align: right;"><strong>Shipping</strong></td>
+						<td style="width: 40px; text-align: right;"><strong><span id="shippingTotal"></span></strong></td>
+					</tr>
+					</table>
+					
+					<div class="repeater" id="dropshipInfo" where="product_shipping='dropship'">
+						<table>
+							<tr>
+								<td style="text-align: right;"><strong>Additional Shipping costs for <data:product_name></data:product_name></strong></td>
+								<td style="width: 40px; text-align: right;"><strong>$<data:dropShipTotal></data:dropShipTotal></strong></td>
+							</tr>
+						</table>
+					</div>
+
+				 				
+					<table>
+						<tr>
+							<td style="text-align: right; border: 0;"><span class="blue-text"><strong>TOTAL</strong></span></td>
+							<td style="width: 40px; text-align: right; border: 0;"><strong><span id="totalPrice"></span></strong></td>
+						</tr>
+					</table>
+					
+				<a href="#" onclick="showPreview();return false;">Change Order Details</a>
+					
+			</div>

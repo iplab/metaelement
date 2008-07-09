@@ -1,0 +1,31 @@
+<h1 class="title">Track Your Order</h1>
+<div id="chkout-container" class="clearfix">
+	 <div id="chkout-left">
+	<div class="chkout-twocol clearfix">		
+	<div class="left">
+			
+		 <h3>Returning Customers</h3>
+		 <div class="generic-form">	
+		  <p>If you have an account, please sign in.</p>
+		  <label for="email-address">Email Address:</label>
+		  <input name="" id="email-address" type="text" />
+		  <label for="password">Password:</label>
+		  <input name="" id="password" type="text" /> 
+		  </div>
+		  <p class="small-text"><a href="#">Forgot Your Password?</a></p>
+		  <a href="#" class="btn-signin-large">Sign in</a>
+	</div>
+	<div class="right">
+	      <h3>Non-registered Customers</h3>	
+		  <p>Please enter the e-mail address used to place your order and the order	 number sent to you in the confirmation e-mail.</p>				
+		  <div class="generic-form">	
+			  <label for="email-address2">Email Address:</label>
+			  <input name="" id="email-address2" type="text" />
+			  <label for="order-number">Order Number:</label>
+			  <input name="" id="order-number" type="text" />
+		 	</div>
+		<a href="#" class="btn-checkorderstatus-large">Check Order Status</a>
+	</div>
+  </div>
+			 
+</div>

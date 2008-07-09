@@ -1,0 +1,73 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/advlink
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+css
+dir
+
+editor_plugin.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+c8bf5cf644697ddc44e978dc5c356214
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+76e1978e9204f56e6798dd5b4c3b954d
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+js
+dir
+
+langs
+dir
+
+link.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+1072ee9ea7839d3251bea3606052500f
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+

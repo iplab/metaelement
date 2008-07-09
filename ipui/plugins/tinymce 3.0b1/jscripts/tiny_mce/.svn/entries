@@ -1,0 +1,88 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+langs
+dir
+
+license.txt
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+0571cf371683742c14f1735079a78e38
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+plugins
+dir
+
+themes
+dir
+
+tiny_mce.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+0fb6e77e1c727b25f293e2e0b1a19e88
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+tiny_mce_popup.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+d2e3403020fec3847dd467be089d498b
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+tiny_mce_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+eb7bbf34946d4cfed708e77398eccc57
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+utils
+dir
+

@@ -1,0 +1,74 @@
+.grid { 
+	padding: 0; 
+	margin: 0; 
+	font: 0.8em Helvetica, Verdana, sans-serif; 
+	text-align: left; 
+	border: 1px solid #CCC; 
+	width: auto; 
+}	 
+.grid ul {  
+	list-style: none; 
+	clear: both;  
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+}
+.grid ul li {
+	float: left; 
+	border: .5px solid #CCC; 
+	min-height: 1.5em; 
+	height: 100%; 
+	width: 140px; 
+	overflow:hidden;
+    padding: 0px 4px; 
+}   
+.gridheader { 
+	background-color:#7F7F7F; 
+	color: #fff;
+	height:18px; 
+	font-size: 15px; 
+	font-weight: bold; 
+	padding: 2px 5px; 
+ 	border-style:none none solid; 
+	border-width: 0pt 0pt 1px; 
+	border-color: black; 
+}
+.grid ul.columnHeader {
+	background:transparent url(../images/grid-vista-hd.gif) repeat scroll 0%;
+	border-style:none none solid; border-width: 0pt 0pt 1px; height: 24px; padding: 0; margin: 0;
+}
+.grid ul.columnHeader li { 
+	height: auto; 
+	width: 141px; 
+	color: #333333; 
+	padding-left: 3px; 
+	text-align: left;
+	font-size: 11px; padding-top: 5px; border: none;
+}
+.grid .columnHeader span.arrow-down {
+	background:url(../images/sort_desc.gif) no-repeat;
+	position: relative; top: 10px; padding: 5px; margin: 5px;
+}
+		.grid .columnHeader span.arrow-up {
+		background:url(../../../themes/images/sort_asc.gif) no-repeat; 
+		position: relative; top: 10px; padding: 5px; margin: 5px;}
+		.grid .columnHeader .split-gif {
+		background:url(../images/grid-split.gif) no-repeat; padding: 0; width: 2px; position: relative; top: 6px;}
+		
+		
+.gridNav {background: #EFEFE3 url(../images/gray-bg.gif) repeat-x scroll 0%; clear: both; font-size: 11px; padding: 2px 0;
+   border-style:none none solid; border-width: 0pt 0pt 1px; border-color: black; }
+.gridNav input {font-size: 11px; width: 2em; }
+.gridNav button { padding-left:2px; border: none; width: 20px; height: 18px;position: relative; bottom: 2px;}
+.gridNav button.first-page  {background: url(../images/page-first-disabled.gif) no-repeat; margin-left: 5px;}
+.gridNav button.prev-page  {background: url(../images/page-prev-disabled.gif) no-repeat;}
+.gridNav button.next-page  { background: url(../images/page-next-disabled.gif) no-repeat;}
+.gridNav button.last-page  { background: url(../images/page-last-disabled.gif) no-repeat;}
+.gridNav button.done-icon  { background: url(../images/done.gif) no-repeat;}
+.gridNav span {background: url(../images/grid-split.gif) no-repeat; padding: 2px;	position: relative; top: 3px;}
+ 	 .grid .gridContent {margin: 0; padding: 0;}    
+.gridContent ul { clear: both; height: 100%; min-height: 1.5em; padding: 0; margin: 0;}
+ .grid .columnHeader span .ascend { background:url(../images/sort_asc.gif) no-repeat;
+	position: relative; top: 10px; padding: 5px; margin: 5px;}
+ .gridContent ul:hover {background: #DCE9F4;}
+ .grid ul.columnHeader li:hover { background: #ccc;}

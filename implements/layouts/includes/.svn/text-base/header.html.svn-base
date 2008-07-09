@@ -1,0 +1,32 @@
+	<div id="header">
+		<div id="accountbar">
+			<ul>
+				<li><a href="#" class="icon-cart">Cart (0)</a>|</li>
+				<li><a href="#">My Account</a>|</li>
+				<li><a href="#">Track Account</a>|</li>
+				<li><a href="#">Help</a>|</li>
+				<li><a href="#">Wish List</a>|</li>
+				<li><a href="#" class="last">Catalog Quickshop</a></li>
+			</ul>
+		</div>
+		<div id="logo">
+			<h1><a href="/" title="BBC Shop">BBC Shop</a></h1>
+			<h2>Your purchase supports original BBC programming</h2>
+		</div>
+		<div id="signin">
+			<a href="#">Create a BBC Shop Account</a>
+		</div>
+		<div id="main_navigation">
+			<ul id="nav" class="clearfix">
+				<li class="item1"><a class="item1-on" href="#"><span>Video</span></a></li>
+				<li class="item2"><a class="item2" href="#"><span>Books</span></a></li>
+				<li class="item3"><a class="item3" href="#"><span>Music &amp; Radio</span></a></li>
+				<li class="item4"><a class="item4" href="#"><span>House &amp; Home</span></a></li>
+				<li class="item5"><a class="item5" href="#"><span>Jewelry &amp; Apparel</span></a></li>
+				<li class="item6"><a class="item6" href="#"><span>Gifts</span></a></li>
+				<li class="item7"><a class="item7" href="#"><span>Magazines</span></a></li>
+				<li class="item8"><a class="item8" href="#"><span>Close-Ups</span></a></li>
+				<li class="item9"><a class="item9" href="#"><span>Sale</span></a></li>
+			</ul>
+		</div>
+	</div>

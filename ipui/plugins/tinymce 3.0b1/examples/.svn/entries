@@ -1,0 +1,112 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/examples
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+css
+dir
+
+full.html
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+451acc77974cb40fc0cc408b80721eb5
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+index.html
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+0acc62b4cef4d0292f82040cd8586dc3
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+lists
+dir
+
+media
+dir
+
+menu.html
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+0b04095edca7f428f2e2ab65481fbf74
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+simple.html
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+4c90786af48090cf8cfd7cd59761d366
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+skins.html
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+28a5f023093a6edb33f441600d18bc9a
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+templates
+dir
+
+word.html
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+61ca4642365bc8df13269a5428cdc817
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+

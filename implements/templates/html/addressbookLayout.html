@@ -1,0 +1,21 @@
+<form id="addressBookForm" name="addressBookForm">
+<div id="repeater-container">
+	<div id="addressList" class="repeater">
+		<table id="previewbodytable">	   
+			<tr>
+				<td><label for="<data:address_id></data:address_id> - selection" class="nobold" >
+					<input type="radio" name="addressGroup" value="<data:address_id></data:address_id>" class="inline" /><span id="<data:address_id></data:address_id>_first_name"><data:first_name></data:first_name></span> <span id="<data:address_id></data:address_id>_last_name"><data:last_name></data:last_name></span><br />
+						<span id="<data:address_id></data:address_id>_address"><data:address></data:address></span> <span id="<data:address_id></data:address_id>_address2"><data:address2></data:address2></span><br />
+						<span id="<data:address_id></data:address_id>_city"><data:city></data:city>,</span> <span id="<data:address_id></data:address_id>_state"><data:state></data:state></span> <span id="<data:address_id></data:address_id>_postal_code"><data:postal_code></data:postal_code></span><br />
+						<span id="<data:address_id></data:address_id>_phone"><data:phone></data:phone></span>
+						</label>
+						
+						<p style="margin-top: 5px; font-size: 11px;"><a href="#" class="edit-entry" onclick="/templates/html/addressformLayout_' + getCountry() + '.html" address_id="<data:address_id></data:address_id>" user_id="<data:user_id></data:user_id>" >Edit</a> |
+						<a href="#" class="delete-entry" address_id="<data:address_id></data:address_id>" user_id="<data:user_id></data:user_id>">Delete</a></p></td>
+			</tr>			
+		</table>
+	</div>
+</div>
+</form>
+
+

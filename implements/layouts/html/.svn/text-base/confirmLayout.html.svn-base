@@ -1,0 +1,156 @@
+    	<div class="chkout-status">
+			 <img src="/media/checkout/statusbar-review.gif" width="507" height="26" alt="Review & Submit" />
+		 </div>
+		<div class="chkout-header">
+			<h2 style="margin-bottom: 15px;">Review and Place Your Order</h2>
+			
+			<table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 12px;">
+			<tr>
+				<td><h3 style="margin:0;">Order Details</h3></td>
+					<td align="right" style="font-size: 11px;">
+						<a href="#" onclick="showPreview();return false;">Change Order Details</a> | <a href="#" onclick="showGiftwrap();return false;">Change Gift Options</a> |
+						<a href="#" onclick="showShipping();return false;">Change Shipping Options</a>
+					</td>
+				</tr>
+			</table>
+
+			<table cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+			<tr>
+				<td width="200" valign="top">
+					<strong>Shipping Address:</strong><br /><br />
+					 <div id="shippingAddress">
+						 <data:FirstName></data:FirstName> <data:LastName></data:LastName><br />
+						 <data:Address1></data:Address1>, <data:Address2></data:Address2><br />
+						 <data:City></data:City>, <data:State></data:State>  <data:Zip></data:Zip>
+					 </div>
+				</td>
+				<td width="20"></td>
+				<td valign="top">
+					 <strong>Shipping Method:</strong><br /><br />
+					<div id="shippingDetails">
+						<data:name></data:name>&nbsp;<data:price></data:price><br />
+						<data:description></data:description>
+					</div>
+				</td>
+			</tr>
+			</table>
+			
+		</div>
+
+
+			<table class="chkout-table"> 
+				<thead>
+				<tr>		   
+					<th class="itemno">Item#</th>
+					<th class="desc" >Description</th>
+					<th class="options">Availability</th>
+					<th class="qty">Quantity</th>
+					<th class="price">Price</th>
+				</tr>
+				</thead>
+			</table>
+				
+			<div class="repeater" id="itemSummary">
+				<table class="chkout-table"> 
+				<tr>
+					<td class="itemno"><data:product_number></data:product_number></td>
+					<td class="desc">
+						<h4><data:product_name></data:product_name></h4>
+						<span class="small-text"><data:product_format></data:product_format></span><br /><br />
+						<data:giftwrap></data:giftwrap><br />
+						<span class="small-text"><data:note></data:note></span>
+						</div>
+					</td>
+					<td class="options">
+						<data:product_availability></data:product_availability>
+					</td>
+					<td class="qty">
+						<data:quantity></data:quantity>
+					</td>
+					<td class="price">$<data:product_price></data:product_price></td>
+				</tr>
+				</table>
+			</div>
+				
+				
+				<table class="chkout-table"> 
+					<tr>
+						<td align="right"><span class="bluebold">Sub-total</span></td>
+						<td class="price"><span id="cartTotal"></span></td>
+					</tr>
+					 <tr>
+					  <td align="right"><span class="bluebold">Giftwrap</span></td>
+					  <td class="price"><span id="giftwrapTotal"></span></td>
+					 </tr>
+				 </table>
+				 	
+				<div id="promotion" style="display:none">
+					<table class="chkout-table"> 
+						<tr>
+							<td  align="right"><span class="bluebold" id="promotionDescription">Promotional Discount</span></td>
+							<td class="price"><span id="promotionTotal"></span></td>
+						</tr>
+					</table>
+				</div>
+							
+				<div id="giftCertificate" style="display:none">
+					<table class="chkout-table"> 
+						<tr>
+							<td align="right"><span class="bluebold">Gift Certificate Amount</span></td>
+							<td class="price"><span id="giftcertificateTotal"></span></td>
+						</tr>
+					</table>
+				</div>
+
+				 <table class="chkout-table">
+					 <tr>
+						<td align="right"><span class="bluebold">Shipping &amp; Handling</span></td>
+						<td class="price"><span id="shippingTotal"></span></td>
+					</tr>
+				</table>
+
+				<div class="repeater" id="dropshipInfo" where="product_shipping='dropship'">
+					<table class="chkout-table">
+						<tr>
+							<td align="right">Additional Shipping costs for <data:product_name></data:product_name></td>
+							<td class="price">$<data:dropShipTotal></data:dropShipTotal></td>
+						</tr>
+					</table>
+				</div>
+										
+				<table class="chkout-table">
+				    <tr>
+						<td align="right"><span class="bluebold">TOTAL</span></td>
+						<td class="price bold"><span id="totalPrice"></span></td>
+					</tr>
+				</table>
+				
+				<table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding: 10px;"> 
+				<tr>
+					<td width="200" valign="top">
+						<strong>Billing Address:</strong><br /><br />
+						<div id="billingAddress">
+							<data:FirstName></data:FirstName> <data:LastName></data:LastName><br />
+					 		<data:Address1></data:Address1>, <data:Address2></data:Address2><br />
+					 		<data:City></data:City>, <data:State></data:State>  <data:Zip></data:Zip><br /><br />
+							<a href="#" class="small-text" onclick="showBilling();return false;">Change</a>
+						</div>
+				     </td>
+					 <td width="20"></td>
+					 <td valign="top">
+			 	 	 	<strong>Payment Method:</strong><br /><br />
+						<div id="paymentDetails"></div><br /><br />
+						<a href="#" class="small-text" onclick="showBilling();return false;">Change</a>
+				    </td>
+				</tr>
+				</table>
+				
+				    
+				<div class="chkout-button">
+					<p style="width: 200px; bold; font-size: 11px; float: left; margin: 0 10px 0 0;" class="orange-text">You will receive a printable confirmation on the next page.</p>
+					<div id="notifier" style="display:none;"></div>
+					<a href="#" onclick="showOrderProcessing('Processing Order - Please Wait...');processOrder();return false;" id="orderbutton" class="btn-submit-large">Submit</a>
+				</div>
+		
+				
+				

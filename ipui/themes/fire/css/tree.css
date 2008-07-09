@@ -1,0 +1,18 @@
+ul.tree, ul.tree ul {
+	background: url(../images/vline.png) repeat-y;	/* vertical line repeated vertically to fill up any gaps */
+	margin: 0 0 0 10px;						/* changes default UL margins and padding */
+	padding: 0;
+}
+/* style sheet for the each tree item */
+ul.tree li {					
+	background: url(../images/node.png) no-repeat;	/* |- image to prefix each node */
+	list-style: none;						/* do not display any default LI markings */
+	padding: 0 12px;						/* offset LI */
+}
+ul.tree li.lastChild {				/* |_ image for the last child */
+	background: #fff url(../images/lastnode.png) no-repeat;
+}
+ul.tree span.selected {				/* show text for the selected node in different color */
+	background: blue !important;
+	color: white;
+}

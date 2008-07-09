@@ -1,0 +1,109 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/plugins/tinymce%203.0b1/jscripts/tiny_mce/plugins/table
+svn://192.168.72.7/
+
+
+
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+cell.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+502a3d5580c77875d7ec637a72c56bf9
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+css
+dir
+
+editor_plugin.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+ddfc7ad21a65a0fb6c9ae242c6d0e8a9
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+editor_plugin_src.js
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+6cbd9164526202342746a2724da0ea18
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+js
+dir
+
+langs
+dir
+
+merge_cells.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+c66aa23b13b1cdf28290d54a0937adb5
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+row.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+703d34ff87a7df5378e19bdb1be85944
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+
+table.htm
+file
+
+
+
+
+2007-11-29T03:06:13.000000Z
+7a8cf8a4ae48e466951beebd77c7d8e9
+2007-11-29T03:06:13.351264Z
+1976
+nicholas.hoskins
+

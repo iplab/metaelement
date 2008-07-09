@@ -1,0 +1,70 @@
+8
+
+dir
+2994
+svn://192.168.72.7/repository/build%200.3/ipui/src
+svn://192.168.72.7/
+
+
+
+2008-02-26T16:57:41.177516Z
+2703
+nicholas.hoskins
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+adbb4ffb-184a-46db-936c-ffa969ce28f4
+
+commerce
+dir
+
+common
+dir
+
+localization
+dir
+
+repo.xml
+file
+
+
+
+
+2008-02-01T22:47:17.000000Z
+330668514d7097b833c41137c2f7410a
+2008-02-01T22:47:17.436555Z
+2618
+nicholas.hoskins
+
+start.js
+file
+
+
+
+
+2008-02-26T16:57:41.000000Z
+dc5c180f1f8b573d69e3f7b8bf7e7687
+2008-02-26T16:57:41.177516Z
+2703
+nicholas.hoskins
+
+ui
+dir
+
+user
+dir
+
+utils
+dir
+

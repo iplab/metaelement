@@ -1,0 +1,3 @@
+function users(){
+};
+users.prototype = {};

@@ -1,0 +1,115 @@
+<div class="popupwindow" style="width: 380px;">
+ <div class="close"><a href="#" class="lbAction" rel="deactivate">close</a></div>
+    <div id="addressformLayout" class="addshippingaddress-container">
+        <form id="form1" name="form1">
+        	
+			<div class="generic-form">
+			<!--<h1>Address</h1>-->
+			
+            <label for="FirstName">First Name:</label>
+			<input type="text" 
+				id="FirstName" 
+				required="required" 
+				alert="Please enter First Name" 
+				maxlength="20"
+				tabindex="1"
+			/>
+			<label for="LastName">Last Name:</label>
+			<input type="text" 
+				id="LastName" 
+				required="required" 
+				alert="Please enter Last Name" 
+				tabindex="2"
+				maxlength="20"
+			/>
+			<label for="Address1">Address 1:</label>
+			<input type="text" 
+				id="Address1" 
+				required="required" 
+				alert="Please enter Address 1" 
+				tabindex="3"
+				maxlength="25"
+			/>
+            <label for="Address2">Address 2:</label>
+			<input id="Address2" type="text" tabindex="4" />
+			<label for="City">City:</label>
+			<input type="text" 
+				id="City" 
+				required="required" 
+				alert="Please enter City" 
+				tabindex="5"
+				maxlength="14"
+				alert="Invalid City"
+			/>
+            <label  for="State">State:</label>
+            <select required="required" id="State" value="" tabindex="6" />		
+				<option value="">-- Please Select --</option>			
+				<option value="AB">Alberta</option>
+				<option value="BC">British Columbia</option>
+				<option value="MB">Manitoba</option>
+				<option value="NB">New Brunswick</option>
+				<option value="NL">Newfoundland and Labrador</option>
+				<option value="NT">Northwest Territories</option>
+				<option value="NS">Nova Scotia</option>
+				<option value="NU">Nunavut</option>
+				<option value="ON">Ontario</option>
+				<option value="PE">Prince Edward Island</option>
+				<option value="QC">Quebec</option>
+				<option value="SK">Saskatchewan</option>
+				<option value="YT">Yukon</option>
+			</select>
+            <label for="Zip">Zip Code / Postal Code:</label>
+			<input type="text" 
+				id="Zip" 
+				required="required" 
+				alert="Please enter Zip Code / Postal Code" 
+				minLen="6" 
+				maxlength="6" 
+				chars="0123456789abcdefghijklmopqrstuvxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+				tabindex="7"
+			/>
+			<label for="Phone">Phone:</label><br />
+			<input type="text" 
+				id="Phone1" 
+				class="inline" 
+				style="width: 40px; margin: 3px 3px 0 0;"
+				required="required" 
+				alert="Please enter valid Phone Number" 
+				minLen="3" 
+				maxlength="3" 
+				chars="0123456789" 
+				tabindex="8"
+			/>
+			<input type="text" 
+				id="Phone2" 
+				class="inline" 
+				style="width: 40px; margin: 3px 3px 0 0;"
+				required="required" 
+				alert="Please enter valid Phone Number" 
+				minLen="3" 
+				maxlength="3" 
+				chars="0123456789"
+				tabindex="9"
+			/>					
+			<input type="text" 
+				id="Phone3" 
+				class="inline" 
+				style="width: 50px; margin: 3px 5px 0 0;"
+				required="required" 
+				alert="Please enter valid Phone Number" 
+				minLen="4" 
+				maxlength="4" 
+				chars="0123456789" 
+				tabindex="10"
+			/>		
+			</div>
+				
+            <div id="add" style="display:none;"><input type="button" value="Create" onclick="address.create($('form1'),{onComplete:'address.display()'});return false;" tabindex="10">&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" tabindex="10"></div>
+            <div id="update" style="display:block;"><input type="button" value="Update" onclick="address.update($('form1'),{onComplete:'address.display()'});return false;"tabindex="10">&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" tabindex="10"></div>       
+                
+            <input id="address_id" type="hidden" value="" />
+			
+        </form>
+    </div>
+</div>
+</div>
